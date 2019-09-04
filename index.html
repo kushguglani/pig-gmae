@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta content="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+	<title>Pig Game</title>
+</head>
+
+<body>
+	<section class="game-section">
+		<div class="row">
+
+			<div class="section-0 active" id="section-0">
+
+				<p>
+					<button class="btn game-start">
+						<i class="ion-ios-plus-outline"></i>
+						<span> New Game</span>
+					</button>
+				</p>
+				<div class="game-controls">
+					<div class="roll-dice">
+						<button class="btn rol-dice" type="button">
+							<i class="ion-loop"></i>
+							<span> Roll Dice</span>
+						</button>
+					</div>
+					<div class="roll-dice">
+						<button class="btn hold">
+							<i class="ion-ios-download-outline"></i>
+							<span> Hold</span>
+						</button>
+					</div>
+				</div>
+				<div class="dice-img">
+					<img class="img-dice" src="resources/img/dice-3.png">
+				</div>
+				<div class="player-data">
+					<i class="activeIcon icon-0"></i>
+					<span class="name-0">Player 0</span>
+					<div class="score" id="score-0">25</div>
+					<div class="current">
+						<h4>Current</h4>
+						<h4 id="current-0">6</h4>
+					</div>
+				</div>
+			</div>
+			<div class="section-1" id="section-1">
+				<div class="player-data">
+					<i class="activeIcon icon-1"></i>
+					<span class="name-1">Player 1</span>
+					<div class="score" id="score-1">35</div>
+					<div class="current">
+						<h4>Current</h4>
+						<h4 id="current-1">6</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="resources/js/script.js"></script>
+</body>
+
+</html>
